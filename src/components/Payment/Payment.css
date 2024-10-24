@@ -1,0 +1,60 @@
+.payment-paper {
+    padding: 40px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    /* White background for contrast */
+}
+
+.payment-title {
+    color: #2c3e50;
+    /* Dark color for the title */
+    margin-bottom: 30px;
+    /* Space below the title */
+    font-weight: bold;
+    /* Bold title for emphasis */
+}
+
+.instructor-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    /* Thicker blue border for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+}
+
+.instructor-name {
+    font-weight: bold;
+    color: #34495e;
+    /* Darker color for instructor name */
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+    /* Red color for price */
+}
+
+.confirm-button {
+    margin-top: 30px;
+    margin-left: 18rem;
+    width: 50%;
+    background-color: #3498db;
+    /* Primary color for the button */
+    color: white;
+    /* White text for the button */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+    padding: 12px;
+    /* Increased padding for a larger button */
+    font-size: 16px;
+    /* Larger font size for better readability */
+}
+
+.confirm-button:hover {
+    background-color: #2980b9;
+    /* Darker shade on hover */
+}
